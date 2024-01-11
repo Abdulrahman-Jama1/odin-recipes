@@ -1,0 +1,25 @@
+body {
+    font-family: "open sans", sans-serif;
+    line-height: 30px;
+    background-color: #fefae0;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ol li {
+    line-height: 60px;
+}
