@@ -1,25 +1,35 @@
+* {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: aliceblue;
+    width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
 body {
     font-family: "open sans", sans-serif;
-    line-height: 30px;
-    background-color: #fefae0;
+    background-color: #1d9b5c;
     text-align: center;
 }
 
 img {
-    width: 500px;
+    width: 300px;
     height: auto;
+    margin: 20px;
 }
 
 ul li {
     list-style-type: none;
-    line-height: 40px;
+    display: inline-block;
+    margin: 20px
 }
 
 ul li a {
     text-decoration: none;
     color: black;
-}
-
-ol li {
-    line-height: 60px;
 }
